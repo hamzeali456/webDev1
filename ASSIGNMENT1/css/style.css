@@ -1,0 +1,194 @@
+/* Shared styles for Hamze Ali's personal website */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #101827;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1769aa;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 22px;
+    padding: 18px;
+    background-color: #202d40;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:link {
+    color: white;
+}
+
+nav a:visited {
+    color: #d6e8ff;
+}
+
+nav a:hover {
+    color: #55baff;
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: orange;
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+section, .content-card {
+    background-color: #202d40;
+    margin: 20px 0;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+h2, h3 {
+    color: #55baff;
+}
+
+figure {
+    margin: 20px auto;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    max-width: 650px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+figcaption {
+    color: #d5dce6;
+    margin-top: 8px;
+}
+
+.photo-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.hobby-card {
+    background-color: #30435c;
+    padding: 16px;
+    border-radius: 10px;
+    flex: 1 1 250px;
+}
+
+.hobby-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #d5dce6;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #1769aa;
+}
+
+tr:nth-child(even) {
+    background-color: #30435c;
+}
+
+tr:hover {
+    background-color: #405b7a;
+}
+
+blockquote {
+    border-left: 4px solid #55baff;
+    margin: 20px 0;
+    padding: 10px 18px;
+    color: #d5dce6;
+}
+
+.button-link {
+    display: inline-block;
+    background-color: #1769aa;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.button-link:hover {
+    background-color: #2588d2;
+}
+
+#intro {
+    border: 2px solid #55baff;
+}
+
+footer {
+    background-color: #1769aa;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+@media (max-width: 650px) {
+    nav {
+        gap: 14px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section, .content-card {
+        padding: 17px;
+    }
+
+    figure img {
+        height: 220px;
+    }
+}
+/*i got the meta codes and @media css codes from chatgpt and ow they work*/
+/* the images used are from unsplash.com and i have added the links to the images in the html files */
